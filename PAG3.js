@@ -3,7 +3,7 @@ function ejecutar() {
     let entrada = "";
     let codigo = 0; 
     let binario ="";
-    entrada= document.getElementById("bina2").value;
+    entrada= document.getElementById("binario").value;
     codigo=entrada.charCodeAt(0);
     
     for (let i = 7;i>=0;i--){
@@ -15,7 +15,7 @@ function ejecutar() {
             binario= binario + "0";
         } 
     }
-    document.getElementById("sal").innerHTML ="El numero binario del carcater es: "+binario;
+    document.getElementById("bin").innerHTML ="El numero binario del carcater es: "+binario;
     
     
 }
